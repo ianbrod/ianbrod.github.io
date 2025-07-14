@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JobSniper – Market Insights & Pitch Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f7f7f7;
+      --text:#111;
+      --accent:#28A745;
+      --card:#fff;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Inter',sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    header{
+      background:var(--accent);
+      color:#fff;
+      padding:2rem 1rem;
+      text-align:center;
+    }
+    nav{
+      display:flex;
+      flex-wrap:wrap;
+      gap:1rem;
+      justify-content:center;
+      padding:1rem;
+    }
+    .btn{
+      background:var(--card);
+      color:var(--accent);
+      border:1px solid var(--accent);
+      padding:.6rem 1.2rem;
+      border-radius:4px;
+      text-decoration:none;
+      font-weight:600;
+      transition:.2s;
+    }
+    .btn:hover{background:var(--accent);color:#fff}
+    iframe{
+      width:100%;
+      height:calc(100vh - 160px);
+      border:0;
+    }
+    footer{
+      text-align:center;
+      padding:1rem;
+      font-size:.875rem;
+      color:#555;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>JobSniper – Market Intelligence & Investor Brief</h1>
+    <p>Zero sales, $4.1 B market, finished product. Pick your upside.</p>
+  </header>
+
+  <nav>
+    <a class="btn" href="good-example2.html" target="viewer">good example 1</a>
+    <a class="btn" href="good-example.html" target="viewer">good example 2</a>
+    <a class="btn" href="kevin.html" target="viewer">bad output 1</a>
+    <a class="btn" href="kevin2.html" target="viewer">bad output 2</a>
+  </nav>
+
+  <!-- Default first view -->
+  <iframe name="viewer" src="good-example2.html"></iframe>
+
+  <footer>
+    &copy; 2025 JobSniper – Built for GitHub Pages
+  </footer>
+</body>
+</html>
